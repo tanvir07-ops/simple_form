@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:white;
+
+
+
+}
+
+p{
+   margin:0.5rem;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    display:flex;
+    max-width:1100px;
+    padding:2rem;
+    margin:auto;
+    justify-content:space-between;
+
+   
+}
+
+/* navbar */
+
+#navbar {
+
+   background-color:#212529;
+ 
+ 
+  
+}
+
+
+ul{
+
+    display:flex;
+    list-style:none;
+    align-items: center;
+
+}
+
+ul li a{
+    color:#ddd;
+   
+    padding:1rem;
+    margin:1rem;
+   
+}
+
+.activate , ul li a:hover {
+    background-color:#02B875;
+    color:white;
+    border-radius: 5px;
+} 
+
+/* ul li a:hover {
+    background-color:#02B875;
+    color:white;
+    border-radius: 5px;
+} */
+
+
+#showcase{
+    
+    content:"";
+    background: #333 url(../img/tanvir.jpg) no-repeat center center/cover;
+    
+    height:100vh;
+    
+    
+}
+
+.showcase-content{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    height:100%;
+
+   
+
+    background-color:rgba(1,1,1,0.5)
+
+}
+
+.h-shadow{
+    
+    text-shadow: 0.5rem 0.5rem 1rem #02B875;
+}
+
+
+
+
